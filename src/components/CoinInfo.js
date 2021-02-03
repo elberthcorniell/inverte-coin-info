@@ -9,7 +9,6 @@ const CoinInfo = () => {
     const desc = useRef(null);
     const {
         name,
-        symbol,
         categories,
         description: { en: description = '', } = {},
         tickers,
@@ -37,7 +36,7 @@ const CoinInfo = () => {
                         justifyContent: 'space-between',
                         alignItems: 'center',
                     }}>
-                        <img src={image.small} alt={name} className="coin-logo" />
+                        <img src={image?.small} alt={name} className="coin-logo" />
                         <h2>${formatNumber(price, 2)}</h2>
                     </div>
                     <br />
@@ -60,7 +59,7 @@ const CoinInfo = () => {
                         {website?.map(link => {
                             if (link.length > 0)
                                 return (
-                                    <div className="gray-pill">
+                                    <div key={link} className="gray-pill">
                                         <a href={link}>
                                             {link}
                                         </a>
@@ -78,14 +77,15 @@ const CoinInfo = () => {
                             const url = reposUrl[key][0];
                             if (url)
                                 return (
-                                    <div className="gray-pill">
+                                    <div key={key} className="gray-pill">
                                         <a href={url}>
                                             {key}
                                         </a>
                                     </div>);
                             return false;
                         })}
-                        {categories?.map(category => (<div className="gray-pill">
+                        {categories?.map(category => (
+                        <div key={category} className="gray-pill">
                             {category}
                         </div>)
                         )}

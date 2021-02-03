@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Render as spected 1`] = `"<div><nav><a href=\\"/\\"><img alt=\\"Inverte logo with text\\" src=\\"https://inverte.io/images/logo-text-dark.png\\" height=\\"40\\"></a><div><ul><a href=\\"/\\"><li>Home</li></a></ul></div></nav></div>"`;
