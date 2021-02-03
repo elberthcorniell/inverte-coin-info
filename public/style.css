@@ -76,7 +76,7 @@ input::placeholder {
   padding: 20px;
   border-radius: 5px;
   margin-bottom: 10px;
-  height: fit-content;
+  height: min-content;
 }
 
 .grid-1-2 {
@@ -103,7 +103,7 @@ input::placeholder {
   box-shadow: 0 calc(0.625px * 14) calc(3.5px * 14) 0 rgba(198, 203, 222, 0.45);
   background-color: white;
   padding: 20px;
-  height: fit-content;
+  height: min-content;
 }
 
 .card:hover {
@@ -111,17 +111,17 @@ input::placeholder {
 }
 
 .gray-pill {
-    display: inline-block;
-    padding: 5px 10px;
-    border-radius: 5px;
-    border: 1px solid #a1a1a1;
-    color: #a1a1a1;
-    background-color: #f3f5f7;
-    margin: 0 10px 10px 0;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #a1a1a1;
+  color: #a1a1a1;
+  background-color: #f3f5f7;
+  margin: 0 10px 10px 0;
 }
 
 .property {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

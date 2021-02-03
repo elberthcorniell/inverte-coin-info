@@ -1,3 +1,3 @@
 module.exports = {
-  setupFilesAfterEnv: ['<rootDir>/testHelper.js', "jest-canvas-mock"],
+  setupFilesAfterEnv: ['<rootDir>/testHelper.js', 'jest-canvas-mock'],
 };

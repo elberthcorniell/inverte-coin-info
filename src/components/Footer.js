@@ -1,5 +1,7 @@
-const Footer = () => <footer>
+const Footer = () => (
+  <footer>
     <em>Developed by Elbert Corniell</em>
-</footer>
+  </footer>
+);
 
 export default Footer;

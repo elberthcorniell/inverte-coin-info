@@ -4,8 +4,6 @@ import {
   changeFilter,
 } from '../../src/actions';
 
-
-
 describe('Actions', () => {
   const coin = {
     name: 'Bitcoin',
@@ -19,9 +17,8 @@ describe('Actions', () => {
   test('setCoin return the same object as state', () => {
     expect(setCoin(coin)).toEqual(coin);
   });
-  
+
   test('changeFilter return the same object as state', () => {
     expect(changeFilter('filter')).toEqual('filter');
   });
-
 });
