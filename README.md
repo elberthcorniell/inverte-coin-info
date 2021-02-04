@@ -28,12 +28,12 @@ To get a local copy up and running follow these simple example steps.
 
 1- Clone the repository
 ```
-    git clone https://github.com/elberthcorniell/calculator-react-js.git
+    git clone https://github.com/elberthcorniell/inverte-coin-info.git
 ```
 
 2- Open the folder. 
 ```
-    cd calculator-react-js
+    cd inverte-coin-info
 ```
 
 3- Run the app
@@ -64,7 +64,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/elberthcorniell/calculator-react-js/issues).
+Feel free to check the [issues page](https://github.com/elberthcorniell/inverte-coin-info/issues).
 
 ## Show your support
 
