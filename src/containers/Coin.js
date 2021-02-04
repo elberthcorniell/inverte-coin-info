@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import useFecth from '../utils/useFetch';
 import API_BASE_URL from '../config';
-import CoinInfo from '../components/CoinInfo';
+import CoinInfo from './CoinInfo';
 
 function Coin() {
   const { coin } = useParams();

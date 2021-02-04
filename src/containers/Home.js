@@ -1,8 +1,8 @@
 import { useDispatch } from 'react-redux';
 import useFecth from '../utils/useFetch';
 import API_BASE_URL from '../config';
-import CoinList from '../components/CoinList';
-import SearchFilter from '../components/SearchFilter';
+import CoinList from './CoinList';
+import SearchFilter from './SearchFilter';
 
 const Home = () => {
   const dispatch = useDispatch();

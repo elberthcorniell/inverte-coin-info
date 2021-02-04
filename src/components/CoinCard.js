@@ -73,7 +73,7 @@ CoinCard.propTypes = {
   name: PropTypes.string,
   image: PropTypes.string,
   symbol: PropTypes.string,
-  index: PropTypes.string,
+  index: PropTypes.number,
   currentPrice: PropTypes.number,
   marketCap: PropTypes.number,
 };
@@ -82,7 +82,7 @@ CoinCard.defaultProps = {
   name: '',
   image: '',
   symbol: '',
-  index: '',
+  index: 0,
   currentPrice: 0,
   marketCap: 0,
 };

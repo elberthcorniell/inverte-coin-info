@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import { Provider } from 'react-redux';
-import SearchFilter from '../../src/components/SearchFilter';
+import SearchFilter from '../../src/containers/SearchFilter';
 import store from '../../src/reducers';
 
 describe('test', () => {

@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import { Provider } from 'react-redux';
-import CoinInfo from '../../src/components/CoinInfo';
+import CoinInfo from '../../src/containers/CoinInfo';
 import store from '../../src/reducers';
 
 describe('test', () => {
