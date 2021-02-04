@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Render as spected 1`] = `"<div><div class=\\"gray-card\\" style=\\"position: relative; text-align: center;\\"><strong style=\\"position: absolute; top: 10px; left: 10px;\\">2</strong><img src=\\"./\\" alt=\\"Bitcoin\\" height=\\"40\\"><div style=\\"margin: 10px 0px;\\"><strong>Bitcoin</strong> <strong><span>BTC</span></strong></div><ul style=\\"text-align: left; margin-top: 40px;\\"><li><strong style=\\"font-weight: 300;\\">Price:</strong><span>$30,000.00</span></li><li><strong style=\\"font-weight: 300;\\">Market Cap:</strong><span>$600,000,000,000.00</span></li></ul></div></div>"`;
