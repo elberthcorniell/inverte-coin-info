@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import CoinCard from './CoinCard';
+import CoinCard from '../components/CoinCard';
 
 const CoinList = () => {
   const coinList = useSelector(state => state.coins);
@@ -8,13 +8,14 @@ const CoinList = () => {
   return (
     <div className="grid-4">
       {coinList?.map(({
-        /* id, */ symbol, name, image, current_price: currentPrice,
+        id, symbol, name, image, current_price: currentPrice,
         market_cap: marketCap,
       }, index) => {
         if ((name.toLowerCase()).includes(filter.toLowerCase())) {
           return (
-            <Link to="/coin/">
+            <Link key={`${id}${symbol}`} to={`/coin/${id}`}> {/* Cannot read property 'range' of null eslint error */}
               <CoinCard
+                key={`${id}${name}`}
                 index={index}
                 name={name}
                 symbol={symbol}
